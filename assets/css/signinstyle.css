@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("https://images.vans.com/is/image/VansBrand/BothUnisexMobileBanner_Product?$fullres$");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+body .sign-in {
+  width: 40%;
+  height: 500px;
+  -webkit-backdrop-filter: blur(14px);
+          backdrop-filter: blur(14px);
+  border: 4px solid rgb(191, 98, 22);
+  border-radius: 30px;
+  padding: 0px 20px 20px 20px;
+}
+body .sign-in h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+}
+body .sign-in .row {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 3px solid white;
+  margin-bottom: 10px;
+}
+body .sign-in .row label {
+  color: #fff;
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+body .sign-in .row input {
+  width: 100%;
+  height: 30px;
+  background: none;
+  outline: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+body .sign-in .row5 {
+  width: 100%;
+  margin-top: 30px;
+  border: none;
+}
+body .sign-in .row5 button {
+  padding: 13px 10px;
+  background-color: rgb(191, 98, 22);
+  color: rgb(255, 255, 255);
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+@media (max-width: 1200px) {
+  body .sign-in {
+    width: 70%;
+    border: none;
+  }
+}
+@media (max-width: 800px) {
+  body .sign-in {
+    width: 100%;
+    border: none;
+  }
+}/*# sourceMappingURL=signinstyle.css.map */
